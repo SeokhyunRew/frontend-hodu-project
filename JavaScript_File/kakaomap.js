@@ -38,7 +38,14 @@ function panTo() {
     // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동
     map.panTo(moveLatLon);
 }
-//--------------------------------------지도 확장 버튼 생성---------------------------------------
+//---------------------------지도 확장(진짜 카카오 맵 켜주기) 버튼 생성-------------------------------
 function Expansion(){
+    const latitude = 33.4423464;
+    const longitude = 126.5714548;
 
+    // 카카오맵 URL 생성
+    var kakaoMapUrl = "https://map.kakao.com/?q=" + latitude + "," + longitude;
+
+    // 새로운 창에서 카카오맵 열기
+    window.open(kakaoMapUrl, '_blank');
 }
