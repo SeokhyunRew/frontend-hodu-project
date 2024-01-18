@@ -1,0 +1,125 @@
+
+main{
+    width: 1920px;
+    height: 2658px;
+}
+main div:first-child{
+    height: 2658px;
+}
+.Profile{
+    height: 590px;
+}
+#Cat_on_bed{
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+
+    margin-top: 80px;
+    float: left;
+}
+#Text3{
+    width: 510px;
+    height: 135px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+
+    margin-left: 70px;
+    margin-top: 172px;
+    margin-bottom: 0;
+    float: right;
+}
+#Text4{
+    width: 510px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-left: 70px;
+    margin-top: 30px;
+    float: right;
+}
+.Many_Image{
+    width: 1400px;
+    height: 1346px;
+}
+#Text5{
+    width: 1000px;
+    height: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+
+    margin-top: 0;
+    margin-left: 203px;
+    margin-bottom:0;
+
+}
+#Text6{
+    width: 800px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-left: 285px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.Scroll_Area{
+    overflow: auto;
+    height: 990px;
+}
+.Many_Image div ul{
+    display: flex;
+    padding: 0;
+}
+.Many_Image div ul:first-child{
+    margin-top: 68px;
+    margin-bottom: 0;
+}
+.Many_Image div ul:nth-child(2){
+    margin-top: 0;
+}
+.Many_Image div li{
+    list-style: none;
+}
+#Text7{
+    width: 320px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+    margin-left:495px;
+    margin-top: 50px;
+}
+.Many_Image button{
+    width: 143px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+    margin-left: 597.5px;
+    border: none;
+    background-color: #D97652;
+    color: white;
+}
+hr{
+    width: 1278px;
+    height: 1px;
+    top: 2916px;
+    left: 320px;
+    border: 0;
+
+    margin-top: 80px;
+    background-color: #C4C4C4;
+    opacity: 0.4;
+}

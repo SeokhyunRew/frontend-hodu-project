@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FrontEnd(HODU) 프로젝트 </title>
-    <link rel="stylesheet" href="Main_CSS.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_map.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
 <header>
     <div class="wrap">
     <div class="Top">
-        <img src="Png_File/Logo-fin.png", alt="호두 로고">
+        <img src="png/Logo-fin.png" , alt="호두 로고">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
@@ -19,7 +23,7 @@
             <li><button class="Download_button">Download</button></li>
         </ul>
     </div>
-    <img id="Box_Cat" src="Png_File/img_cat_png.png", alt="박스 쓴 고양이">
+    <img id="Box_Cat" src="png/img_cat_png.png" , alt="박스 쓴 고양이">
     <div class="Top_Content">
         <p id="Text1">Lorem Ipsum is simply<br> dummy text of the printing and</p>
         <p id="Text2">Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text<br>ever since the 1500s, when an unknown</p>
@@ -30,7 +34,7 @@
 <main>
     <div class="wrap">
         <section class="Profile">
-            <img id="Cat_on_bed" src="Png_File/Cat_on_bed.png", alt="침대 위 고양이">
+            <img id="Cat_on_bed" src="png/Cat_on_bed.png" , alt="침대 위 고양이">
             <p id="Text3">Lorem Ipsum is simply<br>dummy text of the printing<br>and dummy text</p>
             <p id="Text4">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
         </section>
@@ -39,19 +43,14 @@
             <p id="Text6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
             <div class="Scroll_Area">
                 <ul>
-                    <li><img id="img_1_1.png" src="Png_File/img_1_1.png", alt="1열1번 사진"></li>
-                    <li><img id="img_1_2.png" src="Png_File/img_1_2.png", alt="1열2번 사진"></li>
-                    <li><img id="img_1_3.png" src="Png_File/img_1_3.png", alt="1열3번 사진"></li>
+                    <li><img id="img_1_1.png" src="png/img_1_1.png" , alt="1열1번 사진"></li>
+                    <li><img id="img_1_2.png" src="png/img_1_2.png" , alt="1열2번 사진"></li>
+                    <li><img id="img_1_3.png" src="png/img_1_3.png" , alt="1열3번 사진"></li>
                 </ul>
                 <ul >
-                    <li><img id="img_2_1.png" src="Png_File/img_2_1.png", alt="2열1번 사진"></li>
-                    <li><img id="img_2_2.png" src="Png_File/img_2_2.png", alt="2열2번 사진"></li>
-                    <li><img id="img_2_3.png" src="Png_File/img_2_3.png", alt="2열3번 사진"></li>
-                </ul>
-                <ul class="Add_Image">
-<!--                    <li><img id="img_2_1.png" src="img_2_1.png", alt="2열1번 사진"></li>-->
-<!--                    <li><img id="img_2_2.png" src="img_2_2.png", alt="2열2번 사진"></li>-->
-<!--                    <li><img id="img_2_3.png" src="img_2_3.png", alt="2열3번 사진"></li>-->
+                    <li><img id="img_2_1.png" src="png/img_2_1.png" , alt="2열1번 사진"></li>
+                    <li><img id="img_2_2.png" src="png/img_2_2.png" , alt="2열2번 사진"></li>
+                    <li><img id="img_2_3.png" src="png/img_2_3.png" , alt="2열3번 사진"></li>
                 </ul>
 
             </div>
@@ -65,14 +64,14 @@
             <!-- 지도를 표시할 div 입니다 -->
             <div id="map"></div>
             <div class="custom_zoomcontrol">
-                <span onclick="zoomIn()"><img src="Png_File/Zoom_In.png" alt="확대"></span>
-                <span onclick="zoomOut()"><img src="Png_File/Zoom_Out.png" alt="축소"></span>
+                <span onclick="zoomIn()"><img src="png/Zoom_In.png" alt="확대"></span>
+                <span onclick="zoomOut()"><img src="png/Zoom_Out.png" alt="축소"></span>
             </div>
             <div class="custom_refresh">
-                <span onclick="panTo()"><img src="Png_File/Map_Refresh.png" alt="지도 새로고침"></span>
+                <span onclick="panTo()"><img src="png/Map_Refresh.png" alt="지도 새로고침"></span>
             </div>
             <div class="custom_expansion">
-                <span onclick="Expansion()"><img src="Png_File/Map_Expansion.png" alt="확대"></span>
+                <span onclick="Expansion()"><img src="png/Map_Expansion.png" alt="확대"></span>
             </div>
         </section>
     </div>
@@ -82,7 +81,7 @@
         <section class="Subscribe_section">
             <form>
             <label>
-                <img id="mail_image" src="Png_File/mail.png", alt="이메일 사진">
+                <img id="mail_image" src="png/mail.png" , alt="이메일 사진">
                 <input id="input_mail" placeholder="Enter your e-mail address" type="email" required>
                 <button id="subscribe_button">Subscribe</button>
             </label>
@@ -91,31 +90,31 @@
             <p id="Text11"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text </p>
         </section>
     </div>
-    <img id="background_cat" src="Png_File/background_cat.png", alt="배경 고양이">
+    <img id="background_cat" src="png/background_cat.png" , alt="배경 고양이">
     <button id="scroll_top_button" onmouseover="mouseover()" onmouseleave="mouseleave()">
-        <img id="scroll_top" src="Png_File/scroll-top-btn.png" alt="스크롤 탑 버튼">
+        <img id="scroll_top" src="png/scroll-top-btn.png" alt="스크롤 탑 버튼">
     </button>
     <div id="bottom" class="wrap">
-        <img id="bottom_logo" src="Png_File/Logo-fin.png", alt="호두 로고">
+        <img id="bottom_logo" src="png/Logo-fin.png" , alt="호두 로고">
         <nav>
-            <a href="https://velog.io/@krewooo/posts" target="_blank" ><img src="Png_File/icon-blog.png", alt="blog 로고"></a>
-            <a href="https://www.facebook.com/SeokhyunRew" target="_blank" ><img src="Png_File/icon-facebook.png", alt="facebook 로고"></a>
-            <a href="https://www.instagram.com/seokhyun8516/" target="_blank" ><img src="Png_File/icon-insta.png", alt="instagram 로고"></a>
-            <a href="https://github.com/SeokhyunRew" target="_blank" ><img src="Png_File/icone-github.png", alt="github로고"></a>
+            <a href="https://velog.io/@krewooo/posts" target="_blank" ><img src="png/icon-blog.png" , alt="blog 로고"></a>
+            <a href="https://www.facebook.com/SeokhyunRew" target="_blank" ><img src="png/icon-facebook.png" , alt="facebook 로고"></a>
+            <a href="https://www.instagram.com/seokhyun8516/" target="_blank" ><img src="png/icon-insta.png" , alt="instagram 로고"></a>
+            <a href="https://github.com/SeokhyunRew" target="_blank" ><img src="png/icone-github.png" , alt="github로고"></a>
         </nav>
     </div>
 </footer>
 <div class="modal">
     <div class="modal_container">
-        <img id="modal_cat" src="Png_File/modal_cat.png", alt="고양이 얼굴">
+        <img id="modal_cat" src="png/modal_cat.png" , alt="고양이 얼굴">
         <p>Thank You!</p>
         <p id="change_text">Lorem Ipsum is simply dummy text of the printing industry. </p>
         <button id="subscribe_close_button">OK!I Love HODU<br>(Close Modal)</button>
     </div>
 </div>
-<script src="JavaScript_File/Image_Loader.js"></script>
-<script src="JavaScript_File/button.js"></script>
+<script src="script/Image_Loader.js"></script>
+<script src="script/button.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3fbdb39f321c7e06642b86f4ed086ae8&libraries=services,clusterer"></script>
-<script src="JavaScript_File/kakaomap.js"></script>
+<script src="script/kakaomap.js"></script>
 </body>
 </html>
