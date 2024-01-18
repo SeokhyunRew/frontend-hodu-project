@@ -21,10 +21,10 @@ download_btn.addEventListener('click', function(){
  // _______________________hover 버튼 클릭시 페이지 상단으로 이동__________________________
  let scroll_top = document.getElementById('scroll_top');
  function mouseover (){
-     scroll_top.setAttribute("src","scroll-top-btn-overmouse.png");
+     scroll_top.setAttribute("src","Png_File/scroll-top-btn-overmouse.png");
  }
  function mouseleave (){
-     scroll_top.setAttribute("src","scroll-top-btn.png");
+     scroll_top.setAttribute("src","Png_File/scroll-top-btn.png");
  }
  scroll_top.addEventListener('click', function(){
      document.documentElement.scrollTop=0;
