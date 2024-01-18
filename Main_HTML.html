@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd(HODU) 프로젝트 </title>
+    <link rel="stylesheet" href="Main_CSS.css">
+</head>
+<body>
+<header>
+    <div class="wrap">
+    <div class="Top">
+        <img src="Logo-fin.png", alt="호두 로고">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Support</a></li>
+            <li><button class="Download_button">Download</button></li>
+        </ul>
+    </div>
+    <img id="Box_Cat" src="img_cat_png.png", alt="박스 쓴 고양이">
+    <div class="Top_Content">
+        <p id="Text1">Lorem Ipsum is simply<br> dummy text of the printing and</p>
+        <p id="Text2">Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text<br>ever since the 1500s, when an unknown</p>
+        <button class="Download_button">Download</button>
+    </div>
+    </div>
+</header>
+<main>
+    <div class="wrap">
+        <section class="Profile">
+            <img id="Cat_on_bed" src="Cat_on_bed.png", alt="침대 위 고양이">
+            <p id="Text3">Lorem Ipsum is simply<br>dummy text of the printing<br>and dummy text</p>
+            <p id="Text4">Lorem Ipsum is simply dummy text of the printing and typesetting<br> industry.</p>
+        </section>
+        <section class="Many_Image">
+            <p id="Text5">dummy text of the printing and dummy</p>
+            <p id="Text6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+            <div class="Scroll_Area">
+                <ul>
+                    <li><img id="img_1_1.png" src="img_1_1.png", alt="1열1번 사진"></li>
+                    <li><img id="img_1_2.png" src="img_1_2.png", alt="1열2번 사진"></li>
+                    <li><img id="img_1_3.png" src="img_1_3.png", alt="1열3번 사진"></li>
+                </ul>
+                <ul >
+                    <li><img id="img_2_1.png" src="img_2_1.png", alt="2열1번 사진"></li>
+                    <li><img id="img_2_2.png" src="img_2_2.png", alt="2열2번 사진"></li>
+                    <li><img id="img_2_3.png" src="img_2_3.png", alt="2열3번 사진"></li>
+                </ul>
+                <ul class="Add_Image">
+<!--                    <li><img id="img_2_1.png" src="img_2_1.png", alt="2열1번 사진"></li>-->
+<!--                    <li><img id="img_2_2.png" src="img_2_2.png", alt="2열2번 사진"></li>-->
+<!--                    <li><img id="img_2_3.png" src="img_2_3.png", alt="2열3번 사진"></li>-->
+                </ul>
+
+            </div>
+            <p id="Text7">Continue exploring HODU</p>
+            <button id="show_more">Show more</button>
+            <hr>
+        </section>
+        <section class="map_section">
+            <p id="Text8">Where you'll be</p>
+            <p id="Text9">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+            <!-- 지도를 표시할 div 입니다 -->
+            <div id="map"></div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="wrap">
+        <section class="Subscribe_section">
+            <form>
+            <label>
+                <img id="mail_image" src="mail.png", alt="이메일 사진">
+                <input id="input_mail" placeholder="Enter your e-mail address" type="email" required>
+                <button id="subscribe_button">Subscribe</button>
+            </label>
+            </form>
+            <p id="Text10"> Subscribe to our Blog post</p>
+            <p id="Text11"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text </p>
+        </section>
+    </div>
+    <img id="background_cat" src="background_cat.png", alt="배경 고양이">
+    <button id="scroll_top_button" onmouseover="mouseover()" onmouseleave="mouseleave()">
+        <img id="scroll_top" src="scroll-top-btn.png" alt="스크롤 탑 버튼">
+    </button>
+    <div id="bottom" class="wrap">
+        <img id="bottom_logo" src="Logo-fin.png", alt="호두 로고">
+        <nav>
+            <a href="https://velog.io/@krewooo/posts" target="_blank" ><img src="icon-blog.png", alt="blog 로고"></a>
+            <a href="https://www.facebook.com/SeokhyunRew" target="_blank" ><img src="icon-facebook.png", alt="facebook 로고"></a>
+            <a href="https://www.instagram.com/seokhyun8516/" target="_blank" ><img src="icon-insta.png", alt="instagram 로고"></a>
+            <a href="https://github.com/SeokhyunRew" target="_blank" ><img src="icone-github.png", alt="github로고"></a>
+        </nav>
+    </div>
+</footer>
+<div class="modal">
+    <div class="modal_container">
+        <img id="modal_cat" src="modal_cat.png", alt="고양이 얼굴">
+        <p>Thank You!</p>
+        <p id="change_text">Lorem Ipsum is simply dummy text of the printing industry. </p>
+        <button id="subscribe_close_button">OK!I Love HODU<br>(Close Modal)</button>
+    </div>
+</div>
+<script src="Image_Loader.js"></script>
+<script src="./button.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3fbdb39f321c7e06642b86f4ed086ae8"></script>
+<script src="./kakaomap.js"></script>
+</body>
+</html>
