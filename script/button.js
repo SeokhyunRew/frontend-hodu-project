@@ -1,7 +1,7 @@
  // -----------다운로드 버튼 클릭 시 현재페이지 다운로드----------------------------------------
 const download_btn = document.querySelector(".Download_button") ;
 download_btn.addEventListener('click', function(){
-    alert('이 페이지를 다운로드 하시겠습니까?');
+    alert('이 페이지를 다운로드 하겠습니다.');
     let htmlContent = document.documentElement.outerHTML;
     let blob = new Blob([htmlContent], { type: 'text/html' });
 
@@ -21,10 +21,10 @@ download_btn.addEventListener('click', function(){
  // _______________________hover 버튼 클릭시 페이지 상단으로 이동__________________________
  let scroll_top = document.getElementById('scroll_top');
  function mouseover (){
-     scroll_top.setAttribute("src","Png_File/scroll-top-btn-overmouse.png");
+     scroll_top.setAttribute("src","png/scroll-top-btn-overmouse.png");
  }
  function mouseleave (){
-     scroll_top.setAttribute("src","Png_File/scroll-top-btn.png");
+     scroll_top.setAttribute("src","png/scroll-top-btn.png");
  }
  scroll_top.addEventListener('click', function(){
      document.documentElement.scrollTop=0;

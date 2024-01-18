@@ -53,14 +53,14 @@ show_more.addEventListener('click',function(){
         scroll_area.innerHTML = ''
         scroll_area.innerHTML +=
             `<ul>
-                <li><img id="img_1_1.png" src="Png_File/img_1_1.png" alt="1열1번 사진"></li>
-                <li><img id="img_1_2.png" src="Png_File/img_1_2.png" alt="1열2번 사진"></li>
-                <li><img id="img_1_3.png" src="Png_File/img_1_3.png" alt="1열3번 사진"></li>
+                <li><img id="img_1_1.png" src="png/img_1_1.png" alt="1열1번 사진"></li>
+                <li><img id="img_1_2.png" src="png/img_1_2.png" alt="1열2번 사진"></li>
+                <li><img id="img_1_3.png" src="png/img_1_3.png" alt="1열3번 사진"></li>
             </ul>
             <ul>
-                <li><img id="img_2_1.png" src="Png_File/img_2_1.png" alt="2열1번 사진"></li>
-                <li><img id="img_2_2.png" src="Png_File/img_2_2.png" alt="2열2번 사진"></li>
-                <li><img id="img_2_3.png" src="Png_File/img_2_3.png" alt="2열3번 사진"></li>
+                <li><img id="img_2_1.png" src="png/img_2_1.png" alt="2열1번 사진"></li>
+                <li><img id="img_2_2.png" src="png/img_2_2.png" alt="2열2번 사진"></li>
+                <li><img id="img_2_3.png" src="png/img_2_3.png" alt="2열3번 사진"></li>
             </ul>`
         show_more.innerHTML=('Show more');
     }
