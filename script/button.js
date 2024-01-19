@@ -1,22 +1,25 @@
  // -----------다운로드 버튼 클릭 시 현재페이지 다운로드----------------------------------------
-const download_btn = document.querySelector(".Download_button") ;
-download_btn.addEventListener('click', function(){
-    alert('이 페이지를 다운로드 하겠습니다.');
-    let htmlContent = document.documentElement.outerHTML;
-    let blob = new Blob([htmlContent], { type: 'text/html' });
+const download_btn = document.querySelectorAll(".Download_button") ;
 
-    // a 태그를 생성하고 Blob 객체를 URL로 변환하여 다운로드 링크 설정
-    let a = document.createElement('a');
-    a.href = window.URL.createObjectURL(blob);
-    a.download = '현재페이지.html';
+ download_btn.forEach(function(button) {
+     button.addEventListener('click', function(){
+         alert('이 페이지를 다운로드 하겠습니다.');
+         let htmlContent = document.documentElement.outerHTML;
+         let blob = new Blob([htmlContent], { type: 'text/html' });
 
-    // a 태그를 클릭하여 다운로드 진행
-    document.body.appendChild(a);
-    a.click();
+         // a 태그를 생성하고 Blob 객체를 URL로 변환하여 다운로드 링크 설정
+         let a = document.createElement('a');
+         a.href = window.URL.createObjectURL(blob);
+         a.download = '현재페이지.html';
 
-    // 다운로드 후에는 a 태그를 제거
-    document.body.removeChild(a);
-})
+         // a 태그를 클릭하여 다운로드 진행
+         document.body.appendChild(a);
+         a.click();
+
+         // 다운로드 후에는 a 태그를 제거
+         document.body.removeChild(a);
+     });
+ })
 
  // _______________________hover 버튼 클릭시 페이지 상단으로 이동__________________________
  let scroll_top = document.getElementById('scroll_top');
