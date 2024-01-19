@@ -58,6 +58,7 @@ const download_btn = document.querySelectorAll(".Download_button") ;
      }else{
          alert("구독할 이메일을 입력해 주세요!");
      }
+
  })
 
  btnCloseModal.addEventListener("click", function(){

@@ -73,6 +73,9 @@ main div:first-child{
     overflow: auto;
     height: 990px;
 }
+.Scroll_Area::-webkit-scrollbar {
+    display:none;
+}
 .Many_Image div ul{
     display: flex;
     padding: 0;
