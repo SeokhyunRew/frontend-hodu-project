@@ -84,11 +84,11 @@ label{
     height: 50px;
 
     position: fixed;
-    margin-top: 620px;
-    margin-left: 1846px;
-    top: 1000px;
+    top: 1100px;
+    margin-left: 1850px;
     border: none;
     background-color: transparent;
+    opacity: 1;
 }
 #bottom{
     width: 1280px;

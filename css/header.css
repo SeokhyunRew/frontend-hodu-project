@@ -1,3 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+body {
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 20px; /* Optional: 여백을 주고 싶다면 추가 */
+}
 header{
     width: 1920px;
     height: 900px;
