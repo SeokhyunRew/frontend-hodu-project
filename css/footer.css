@@ -84,7 +84,8 @@ label{
     height: 50px;
 
     position: fixed;
-    top: 900px;
+    bottom: 220px;
+    right: 24px;
     margin-left: 1850px;
     border: none;
     background-color: transparent;
