@@ -37,6 +37,7 @@ scroll_area.addEventListener('scroll', () => {
     // 현재 스크롤 위치 + 화면 높이 >= 전체 컨텐츠 높이 - 일정 여백(여기서는 10px)
     if (infiniteScrollActive && scroll_area.scrollTop + scroll_area.clientHeight + 10 >= scroll_area.scrollHeight) {
         // 스크롤이 하단에 도달하면 새로운 이미지를 가져옴
+
         fetchImages(pageToFetch++);
     }
 });
